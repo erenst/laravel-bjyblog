@@ -33,7 +33,7 @@ class ArticleController extends Controller
             })
             ->withTrashed()
             ->paginate(15);
-        $assign = compact('article');
+        $assign =compact('article');
 
         return view('admin.article.index', $assign);
     }
