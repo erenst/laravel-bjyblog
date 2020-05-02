@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: PHP CS Fixer
         run: |
-          exit 0
+          exit 1
 
   phpstan:
     runs-on: ubuntu-latest
